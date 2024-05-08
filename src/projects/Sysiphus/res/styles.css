@@ -1,0 +1,60 @@
+.hero {
+   background-color: #c6c8c3;
+   min-height: 100vh;
+}
+.imgs {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+
+.bg-mountain {
+   width: 100%;
+   height: auto;
+   position: relative;
+   z-index: 10;
+}
+.bg-push {
+   position: absolute;
+   z-index: 30;
+}
+
+/* 
+.section1 {
+   min-height: 100vh;
+   background-color: aqua;
+}
+
+.parent {
+   position: relative;
+overflow-wrap: break-word;
+}
+
+.illustration {
+   min-width: 100vw;
+   position: relative;
+   top: 0;
+   left: 0;
+   
+
+    width: 100%;
+    height: auto;
+  
+
+}
+
+.title{
+    font-size:128px;
+    position: absolute;
+    bottom: 204px;
+    left: 375px;
+
+}
+
+.illustration2 {
+   min-width: 100vw;
+   position: absolute;
+   top: 30px;
+   left: 30px;
+  
+} */
