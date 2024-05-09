@@ -1,60 +1,33 @@
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(./fonts/HTOWERT.TTF) format('truetype');
+  }
+
 .hero {
    background-color: #c6c8c3;
    min-height: 100vh;
-}
-.imgs {
-   position: absolute;
-   top: 0px;
-   left: 0px;
-}
-
-.bg-mountain {
-   width: 100%;
-   height: auto;
-   position: relative;
-   z-index: 10;
-}
-.bg-push {
-   position: absolute;
-   z-index: 30;
+   background-image: url(./imgs/BG.svg), url(./imgs/Pushing.svg);
+   background-size: cover, contain;
+   background-position: left top, right bottom;
+   background-repeat: no-repeat, no-repeat;
 }
 
-/* 
 .section1 {
-   min-height: 100vh;
    background-color: aqua;
+   min-height: 100vh;
 }
 
-.parent {
-   position: relative;
-overflow-wrap: break-word;
+.nav-center {
+   text-align: center;
+   font-size: 16px;
+   height: 50px;
+   font-family: MyFont  ;
+   /* Center vertically and horizontally */
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-.illustration {
-   min-width: 100vw;
-   position: relative;
-   top: 0;
-   left: 0;
-   
-
-    width: 100%;
-    height: auto;
-  
-
+.nav-text {
+   font-size: 16px;
 }
-
-.title{
-    font-size:128px;
-    position: absolute;
-    bottom: 204px;
-    left: 375px;
-
-}
-
-.illustration2 {
-   min-width: 100vw;
-   position: absolute;
-   top: 30px;
-   left: 30px;
-  
-} */
