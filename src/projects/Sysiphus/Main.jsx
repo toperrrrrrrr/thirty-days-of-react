@@ -1,5 +1,6 @@
 import React from "react";
 import "./res/styles.css";
+import Sisyphus from "./res/imgs/Sisyphus.png";
 
 export default function Main() {
    return (
@@ -27,7 +28,7 @@ export default function Main() {
                <div className="container-fluid container-hero">
                   <div className="row row-fit">
                      <div className="col-sm-6 col-title">
-                        <div className="mx-5 px-5 text-contain">
+                        <div className="mx-5 px-5">
                            <h1>ˈsɪsɪfəs </h1>
                            <h1 className="title">SISYPHUS</h1>
                            <p className="subtitle">
@@ -41,12 +42,58 @@ export default function Main() {
                </div>
             </div>
          </div>
-
-         <div className="gradientbg">
+         <div className="section-1">
             <div className="container-fluid">
                <div className="row">
-                  <div className="col-12">
-                     <h1 className="title">amazing</h1>
+                  <div className="col-12 fullscreen-col">
+                     <div className="textContainer centerItems">
+                        <div className="row row-myth">
+                           <div className="col-6 container-col">
+                              <h1>The Myth</h1>
+                              <p>
+                                 Sisyphus, a crafty rebel from Greek myth, faces
+                                 an eternal torment: pushing a boulder uphill,
+                                 only to see it roll back down. This seemingly
+                                 pointless task has become a powerful symbol of
+                                 human resilience, perseverance, and the quest
+                                 for meaning in a seemingly absurd world. Join
+                                 us as we explore the myth of Sisyphus and
+                                 uncover the timeless lessons it offers.
+                              </p>
+                           </div>
+                           <div className="col-6 container-col">
+                              <img src={Sisyphus} alt="Myth" />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>{" "}
+         <div className="section-1">
+            <div className="container-fluid">
+               <div className="row">
+                  <div className="col-12 fullscreen-col">
+                     <div className="textContainer centerItems">
+                        <div className="row row-myth">
+                           <div className="col-6 container-col">
+                              <h1>The Myth</h1>
+                              <p>
+                                 Sisyphus, a crafty rebel from Greek myth, faces
+                                 an eternal torment: pushing a boulder uphill,
+                                 only to see it roll back down. This seemingly
+                                 pointless task has become a powerful symbol of
+                                 human resilience, perseverance, and the quest
+                                 for meaning in a seemingly absurd world. Join
+                                 us as we explore the myth of Sisyphus and
+                                 uncover the timeless lessons it offers.
+                              </p>
+                           </div>
+                           <div className="col-6 container-col">
+                              <img src={Sisyphus} alt="Myth" />
+                           </div>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
