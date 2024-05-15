@@ -12,7 +12,9 @@
 body {
    background-color: #c6c8c3;
 }
-
+h1 {
+   font-family: MyFont;
+}
 .hero {
    background-color: #c6c8c3;
    min-height: 100vh;
@@ -103,6 +105,14 @@ body {
    align-items: center;
    margin-top: 10px;
    margin-bottom: 10px;
+}
+.insideContainer {
+   margin-left: 50px;
+}
+
+p{
+   font-size: 24px;
+   font-family: MyFont;
 }
 
 .centerItems {

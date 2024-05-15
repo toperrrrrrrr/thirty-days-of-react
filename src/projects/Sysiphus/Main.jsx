@@ -49,17 +49,20 @@ export default function Main() {
                      <div className="textContainer centerItems">
                         <div className="row row-myth">
                            <div className="col-6 container-col">
-                              <h1>The Myth</h1>
-                              <p>
-                                 Sisyphus, a crafty rebel from Greek myth, faces
-                                 an eternal torment: pushing a boulder uphill,
-                                 only to see it roll back down. This seemingly
-                                 pointless task has become a powerful symbol of
-                                 human resilience, perseverance, and the quest
-                                 for meaning in a seemingly absurd world. Join
-                                 us as we explore the myth of Sisyphus and
-                                 uncover the timeless lessons it offers.
-                              </p>
+                              <div className="insideContainer">
+                                 <h1 className="subtitle">The Myth</h1>
+                                 <p>
+                                    Sisyphus, a crafty rebel from Greek myth,
+                                    faces an eternal torment: pushing a boulder
+                                    uphill, only to see it roll back down. This
+                                    seemingly pointless task has become a
+                                    powerful symbol of human resilience,
+                                    perseverance, and the quest for meaning in a
+                                    seemingly absurd world. Join us as we
+                                    explore the myth of Sisyphus and uncover the
+                                    timeless lessons it offers.
+                                 </p>
+                              </div>
                            </div>
                            <div className="col-6 container-col">
                               <img src={Sisyphus} alt="Myth" />
