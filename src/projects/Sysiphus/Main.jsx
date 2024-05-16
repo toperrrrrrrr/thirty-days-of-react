@@ -1,6 +1,8 @@
 import React from "react";
 import "./res/styles.css";
 import Sisyphus from "./res/imgs/Sisyphus.png";
+import Boulder from "./res/imgs/boulder.png";
+import accent from "./res/imgs/BGaccent.svg";
 
 export default function Main() {
    return (
@@ -42,58 +44,67 @@ export default function Main() {
                </div>
             </div>
          </div>
-         <div className="section-1">
-            <div className="container-fluid">
-               <div className="row">
-                  <div className="col-12 fullscreen-col">
-                     <div className="textContainer centerItems">
-                        <div className="row row-myth">
-                           <div className="col-6 container-col">
-                              <div className="insideContainer">
-                                 <h1 className="subtitle">The Myth</h1>
-                                 <p>
-                                    Sisyphus, a crafty rebel from Greek myth,
-                                    faces an eternal torment: pushing a boulder
-                                    uphill, only to see it roll back down. This
-                                    seemingly pointless task has become a
-                                    powerful symbol of human resilience,
-                                    perseverance, and the quest for meaning in a
-                                    seemingly absurd world. Join us as we
-                                    explore the myth of Sisyphus and uncover the
-                                    timeless lessons it offers.
-                                 </p>
+         <div>
+            <div className="section-1">
+               <div className="container-fluid">
+                  <div className="row">
+                     <div className="col-12 fullscreen-col">
+                        <div className="textContainer centerItems">
+                           <div className="row row-myth">
+                              <div className="col-6 container-col">
+                                 <div className="insideContainer">
+                                    <h1 className="subtitle">The Myth</h1>
+                                    <p>
+                                       Sisyphus, a crafty rebel from Greek myth,
+                                       faces an eternal torment: pushing a
+                                       boulder uphill, only to see it roll back
+                                       down. This seemingly pointless task has
+                                       become a powerful symbol of human
+                                       resilience, perseverance, and the quest
+                                       for meaning in a seemingly absurd world.
+                                       Join us as we explore the myth of
+                                       Sisyphus and uncover the timeless lessons
+                                       it offers.
+                                    </p>
+                                 </div>
                               </div>
-                           </div>
-                           <div className="col-6 container-col">
-                              <img src={Sisyphus} alt="Myth" />
+                              <div className="col-6 container-col">
+                                 <img src={Sisyphus} alt="Myth" />
+                              </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>{" "}
-         <div className="section-1">
-            <div className="container-fluid">
-               <div className="row">
-                  <div className="col-12 fullscreen-col">
-                     <div className="textContainer centerItems">
-                        <div className="row row-myth">
-                           <div className="col-6 container-col">
-                              <h1>The Myth</h1>
-                              <p>
-                                 Sisyphus, a crafty rebel from Greek myth, faces
-                                 an eternal torment: pushing a boulder uphill,
-                                 only to see it roll back down. This seemingly
-                                 pointless task has become a powerful symbol of
-                                 human resilience, perseverance, and the quest
-                                 for meaning in a seemingly absurd world. Join
-                                 us as we explore the myth of Sisyphus and
-                                 uncover the timeless lessons it offers.
-                              </p>
-                           </div>
-                           <div className="col-6 container-col">
-                              <img src={Sisyphus} alt="Myth" />
+            <div className="section-2">
+               <div className="container-fluid">
+                  <div className="row">
+                     <div className="col-12 fullscreen-col">
+                        <div className="textContainer centerItems">
+                           <div className="row row-myth">
+                              <div className="col-6 container-col">
+                                 <img
+                                    src={Boulder}
+                                    alt="Boulder"
+                                    className="fitimage"
+                                 />
+                              </div>
+                              <div className="col-6 container-col-1">
+                                 <div>
+                                    <h1>
+                                       Interpretations: Finding Meaning in the
+                                       Absurd
+                                    </h1>
+                                    <p>
+                                       The myth of Sisyphus, with its seemingly
+                                       endless cycle of frustration, has sparked
+                                       numerous interpretations throughout
+                                       history. Here, we explore some of the
+                                       core themes that continue to resonate:
+                                    </p>
+                                 </div>
+                              </div>
                            </div>
                         </div>
                      </div>
