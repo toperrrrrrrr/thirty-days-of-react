@@ -3,6 +3,7 @@ import "./res/styles.css";
 import Sisyphus from "./res/imgs/Sisyphus.png";
 import Boulder from "./res/imgs/boulder.png";
 import accent from "./res/imgs/BGaccent.svg";
+import backboulder from "./res/imgs/backboulder.png";
 
 export default function Main() {
    return (
@@ -29,7 +30,7 @@ export default function Main() {
             <div className="katawan">
                <div className="container-fluid container-hero">
                   <div className="row row-fit">
-                     <div className="col-sm-6 col-title">
+                     <div className="col-sm-6 container-col">
                         <div className="mx-5 px-5">
                            <h1>ˈsɪsɪfəs </h1>
                            <h1 className="title">SISYPHUS</h1>
@@ -107,6 +108,31 @@ export default function Main() {
                               </div>
                            </div>
                         </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div className="hero ">
+               <div className="container-fluid container-hero">
+                  <div className="row row-fit">
+                     <div className="col-6 container-col">
+                        <divs>
+                           <div>
+                              <h1>
+                                 Interpretations: Finding Meaning in the Absurd
+                              </h1>
+                              <p>
+                                 The myth of Sisyphus, with its seemingly
+                                 endless cycle of frustration, has sparked
+                                 numerous interpretations throughout history.
+                                 Here, we explore some of the core themes that
+                                 continue to resonate:
+                              </p>
+                           </div>
+                        </divs>
+                     </div>
+                     <div className="col-6 container-col">
+                        <img src={backboulder} alt="backboulder" />
                      </div>
                   </div>
                </div>

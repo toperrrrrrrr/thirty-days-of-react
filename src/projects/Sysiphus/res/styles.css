@@ -1,6 +1,6 @@
-*{
-   /* border-style: groove; */
-}
+/* * {
+   border-style: groove;
+} */
 
 @font-face {
    font-family: "MyFont";
@@ -36,13 +36,7 @@ p {
    background-position: left top, right bottom;
    background-repeat: no-repeat, no-repeat;
 }
-.katawan {
-   min-height: 100vh;
-   background-image: url(./imgs/Pushing.svg);
-   background-size: contain;
-   background-position: right bottom;
-   background-repeat: no-repeat;
-}
+
 
 .section-1 {
    min-height: 100vh;
@@ -90,15 +84,6 @@ p {
 .row-fit {
    min-height: inherit;
    min-width: inherit;
-}
-
-.col-title {
-   margin: 0;
-   position: absolute;
-   top: 50%;
-   -ms-transform: translateY(-50%);
-   transform: translateY(-50%);
-   padding-left: 100px;
 }
 
 .fullscreen-col {
