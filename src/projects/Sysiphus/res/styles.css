@@ -6,11 +6,6 @@
    font-family: "MyFont";
    src: local("MyFont"), url(./fonts/Htower.woff) format("woff");
 }
-* {
-   color: #000000;
-   border-color: #000000;
-   font-family: MyFont;
-}
 
 body {
    background-color: #c6c8c3;
@@ -36,7 +31,7 @@ p {
    background-position: left top;
    background-repeat: no-repeat;
 }
-.katawan{
+.katawan {
    background-image: url(./imgs/Pushing.svg);
    min-height: 100vh;
    background-position: right bottom;

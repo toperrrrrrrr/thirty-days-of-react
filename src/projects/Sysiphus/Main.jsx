@@ -2,7 +2,6 @@ import React from "react";
 import "./res/styles.css";
 import Sisyphus from "./res/imgs/Sisyphus.png";
 import Boulder from "./res/imgs/boulder.png";
-import accent from "./res/imgs/BGaccent.svg";
 import backboulder from "./res/imgs/backboulder.png";
 
 export default function Main() {

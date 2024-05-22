@@ -6,9 +6,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./projects/Dashboard/Dashboard";
 import NotFound from "./projects/Dashboard/NotFound";
-import Main from "./projects/Sysiphus/Main";
-import Dir from "./projects/Dir";
 
+import Dir from "./projects/Dir";
+import Main from "./projects/Sysiphus/Main";
 function App() {
    return (
       <Router>
